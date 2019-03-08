@@ -1,5 +1,5 @@
 before_script:
-  - cd src/test/java/com/HostAbroadTests
+  - cd src/
   - sudo apt-get install junit
 language: java
 script: mvn test
