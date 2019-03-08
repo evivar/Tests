@@ -4,3 +4,5 @@ addons:
   chrome: stable
 before_install:
   - cd src/test/java/runner/
+script:
+  - junit test
