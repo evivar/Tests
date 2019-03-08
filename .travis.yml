@@ -3,7 +3,7 @@ before_script:
   - sudo apt-get install junit
   - sudo apt-get install cucumber
 language: java
-script: junit test
+script: junit AppTest.java
 jdk:
 - oraclejdk9
 - oraclejdk8
