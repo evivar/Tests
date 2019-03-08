@@ -2,7 +2,7 @@ before_script:
   - cd src/test/java/com/HostAbroadTests
   - sudo apt-get install junit
 language: java
-script: junit
+script: mvn test
 jdk:
 - oraclejdk9
 - oraclejdk8
