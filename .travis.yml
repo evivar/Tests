@@ -1,6 +1,6 @@
 before_script: cd src/test/java/runner
 language: java
-script: mvn test
+script: junit test
 jdk:
 - oraclejdk9
 - oraclejdk8
