@@ -1,4 +1,5 @@
 sudo:true
+
 before_script:
   - cd src/test/java/runner
   - sudo apt-get install junit
@@ -17,8 +18,11 @@ before_script:
   - wget https://selenium-release.storage.googleapis.com/3.13/selenium-server-standalone-3.13.0.jar
   - wget http://www.java2s.com/Code/JarDownload/testng/testng-6.8.7.jar.zip
   - unzip testng-6.8.7.jar.zip
+  
 language: java
+
 script: junit test
+
 jdk:
 - oraclejdk9
 - oraclejdk8
