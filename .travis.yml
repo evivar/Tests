@@ -1,4 +1,7 @@
-before_script: cd src/test/java/runner
+before_script:
+  - cd src/test/java/runner
+  - sudo apt-get install java
+  - sudo apt-get install junit
 language: java
 script: junit
 jdk:
