@@ -2,6 +2,7 @@ before_script:
   - cd src/test/java/runner
   - sudo apt-get install junit
   - sudo apt-get install cucumber
+  - sudo apt-get install libgcj7-awt
 language: java
 script: junit 
 jdk:
