@@ -7,6 +7,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
+@RunWith(JUnit4.class)
 public class AppTest 
 {
     /**
