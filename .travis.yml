@@ -3,4 +3,4 @@ Jdk: oraclejdk8
 addons:
   chrome: stable
 before_install:
-  - cd java
+  - cd /src/test/java
