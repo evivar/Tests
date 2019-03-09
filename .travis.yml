@@ -1,4 +1,3 @@
-sudo:true
 before_script:
   - cd src/test/java/runner
   - sudo apt-get install junit
