@@ -2,7 +2,7 @@ sudo: true
 before_script:
   - cd src/test/java/com/HostAbroadTests
   - sudo apt-get install junit
-  - sudo apt-get install cucumber
+  - sudo gem install cucumber
   - sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
   - sudo apt-get install default-jdk 
   - sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add
@@ -20,7 +20,11 @@ before_script:
   
 language: java
 
-script: gradle check
+script: 
+  - gradle check
+  - mvn -q verify
+  - junit test
+  - cucumber
 
 jdk:
 - oraclejdk9
