@@ -20,7 +20,7 @@ before_script:
   
 language: java
 
-script: junit test
+script: junit TestRunner
 
 jdk:
 - oraclejdk9
