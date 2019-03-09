@@ -21,8 +21,12 @@ before_script:
 language: java
 
 script: 
-  - junit AppTest.java
-  - cd Tests/
+  - junit AppTest
+  - cd ..
+  - cd ..
+  - cd ..
+  - cd ..
+  - cd ..
   - mvn -q verify
 
 jdk:
