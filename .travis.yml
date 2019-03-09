@@ -20,7 +20,7 @@ before_script:
   
 language: java
 
-scriptç: junit AppTest
+scriptç: mvn -q verify
 
 jdk:
 - oraclejdk9
