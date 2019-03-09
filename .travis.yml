@@ -21,10 +21,9 @@ before_script:
 language: java
 
 script: 
-  - gradle check
+  - junit AppTest.java
+  - cd Tests/
   - mvn -q verify
-  - junit test
-  - cucumber
 
 jdk:
 - oraclejdk9
