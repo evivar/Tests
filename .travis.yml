@@ -1,5 +1,6 @@
-sudo:true
+
 before_script:
+  - sudo:true
   - cd src/test/java/runner
   - sudo apt-get install junit
   - sudo apt-get install cucumber
