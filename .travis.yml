@@ -20,9 +20,7 @@ before_script:
   
 language: java
 
-script:
-  - javac AppTest
-  - java AppTest
+scriptç: junit AppTest
 
 jdk:
 - oraclejdk9
