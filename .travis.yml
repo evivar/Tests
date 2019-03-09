@@ -20,7 +20,7 @@ before_script:
   
 language: java
 
-scriptç: mvn -q verify
+script: mvn -q verify
 
 jdk:
 - oraclejdk9
