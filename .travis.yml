@@ -1,6 +1,6 @@
 sudo: true
 before_script:
-  - cd src/test/java/runner/TestRunner
+  - cd src/test/java/runner/
   - sudo apt-get install junit
   - sudo apt-get install cucumber
   - sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
@@ -20,7 +20,7 @@ before_script:
   
 language: java
 
-script: junit test
+script: junit TestRunner
 
 jdk:
 - oraclejdk9
