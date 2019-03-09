@@ -20,7 +20,7 @@ before_script:
   
 language: java
 
-script: mvn -q verify
+script: gradle check
 
 jdk:
 - oraclejdk9
