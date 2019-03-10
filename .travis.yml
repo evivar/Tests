@@ -17,13 +17,13 @@ before_script:
 language: java
 
 script: 
-  - junit 
+  - junit TestRunner.java
   - cd ..
   - cd ..
   - cd ..
   - cd ..
   - cd ..
-  - mvn -q verify
+  - mvn test
 
 jdk:
 - oraclejdk9
