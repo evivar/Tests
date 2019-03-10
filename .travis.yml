@@ -20,6 +20,8 @@ language: java
 script: 
   - junit TestRunner
   - cucumber TestRunner
+  - cd src/
+  - cd ..
   - gradle check
   - mvn test
 
