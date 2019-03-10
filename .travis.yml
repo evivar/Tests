@@ -17,8 +17,8 @@ before_script:
 language: java
 
 script: 
-  - junit TestRunner.java
-  - cd Tests/
+  - junit TestRunner
+  - cucumber TestRunner
   - mvn test
 
 jdk:
