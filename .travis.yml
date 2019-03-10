@@ -1,6 +1,6 @@
 sudo: true
 before_script:
-  - cd src/test/java/com/HostAbroadTests
+  - cd src/test/java/runner
   - sudo apt-get install junit
   - sudo apt install maven
   - gem install cucumber
@@ -22,7 +22,7 @@ before_script:
 language: java
 
 script: 
-  - junit AppTest
+  - junit TestRunner
   - cd ..
   - cd ..
   - cd ..
