@@ -3,6 +3,7 @@ before_script:
   - cd src/test/java/runner/
   - sudo apt-get install junit
   - sudo apt install maven
+  - sudo apt-get install gradle
   - gem install cucumber
   - sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
   - sudo apt-get install default-jdk 
@@ -19,6 +20,7 @@ language: java
 script: 
   - junit TestRunner
   - cucumber TestRunner
+  - gradle check
   - mvn test
 
 jdk:
