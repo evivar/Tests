@@ -20,8 +20,6 @@ language: java
 script: 
   - junit TestRunner
   - cucumber TestRunner
-  - cd src/
-  - cd ..
   - cd ..
   - cd ..
   - cd ..
