@@ -22,6 +22,10 @@ script:
   - cucumber TestRunner
   - cd src/
   - cd ..
+  - cd ..
+  - cd ..
+  - cd ..
+  - cd ..
   - gradle check
   - mvn test
 
